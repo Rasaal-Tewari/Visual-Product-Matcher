@@ -1,12 +1,15 @@
-# React + Vite
+#Visual Product Matcher
+This project is a single-page web application that allows users to find visually similar products based on an uploaded image. It's built with React and styled using Tailwind CSS to create a modern, responsive, and mobile-friendly user interface.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+#Key Features
+Dual Image Upload: Supports both local file uploads and direct image URL submissions.
 
-Currently, two official plugins are available:
+Client-Side Visual Search: Implements a simulated visual search by generating and comparing color histograms of images directly in the browser. This provides a fast, backend-free demonstration of the core concept.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Similarity Ranking: Displays a list of products from a pre-defined catalog, sorted by how visually similar they are to the user's input image.
 
-## Expanding the ESLint configuration
+Interactive Filtering: Includes a slider that allows users to filter the results based on the calculated similarity score.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+User-Friendly Interface: Features a clean design with clear loading states and error handling for a smooth user experience.
+
+The product data used in this application is a sample subset from the "Fashion Product Images (Small)" dataset available on Kaggle.
