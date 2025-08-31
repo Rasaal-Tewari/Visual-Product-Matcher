@@ -1,0 +1,8 @@
+[
+  { "id": 1, "name": "Classic Watch #1", "category": "Watches",   "image": "https://picsum.photos/id/101/400/400" },
+  { "id": 2, "name": "Leather Bag #1",    "category": "Bags",      "image": "https://picsum.photos/id/102/400/400" },
+  { "id": 3, "name": "Running Shoe #1",   "category": "Shoes",     "image": "https://picsum.photos/id/103/400/400" },
+  { "id": 4, "name": "Headphones #1",     "category": "Audio",     "image": "https://picsum.photos/id/104/400/400" },
+  { "id": 5, "name": "Classic Watch #2",  "category": "Watches",   "image": "https://picsum.photos/id/105/400/400" }
+  
+]
